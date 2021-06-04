@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /* height: 100vh; */
+  font-family: "Barlow", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 62rem;
+}
+
+.cv-head {
+  background-color: #44b1b4;
+  padding: 4rem 3rem 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 23rem;
+}
+
+.cv-title,
+.cv-social {
+  width: 18rem;
+  padding: 0.8rem 0rem;
+}
+
+.cv-title-name {
+  width: 16rem;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cv-title-profession {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #a1f1f3;
+}
+
+.cv-social {
+  border-top: 1px solid white;
+}
+
+
+.cv-social-link:not(:last-child){
+    margin-right: 5px;
+}
+
+.cv-social-icon {
+    width: 14px;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+.cv-profile-img{
+    width: 16.5rem;
+    border-radius: 50%;
+}
