@@ -12,14 +12,35 @@ html {
 }
 
 body {
-  /* height: 100vh; */
   font-family: "Barlow", sans-serif;
   display: grid;
   place-items: center;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
   width: 62rem;
+}
+
+.cv-body {
+  padding: 3rem;
+}
+
+.cv-body {
+  display: flex;
+}
+
+.cv-body-left {
+  flex-basis: 40%;
+}
+
+.cv-body-right {
+  flex-basis: 60%;
 }
 
 .cv-head {
@@ -53,19 +74,114 @@ body {
   border-top: 1px solid white;
 }
 
-
-.cv-social-link:not(:last-child){
-    margin-right: 5px;
+.cv-social-link:not(:last-child) {
+  margin-right: 5px;
 }
 
 .cv-social-icon {
-    width: 14px;
+  width: 14px;
   background-color: white;
   padding: 0.2rem;
   border-radius: 50%;
 }
 
-.cv-profile-img{
-    width: 16.5rem;
-    border-radius: 50%;
+.cv-profile {
+  font-size: 1.3rem;
+  border: 1.6px solid #43b1b4;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10rem;
+  display: inline-block;
+  position: relative;
+  top: -18rem;
+  background-color: white;
+}
+
+.cv-profile-img {
+  width: 16.5rem;
+  border-radius: 50%;
+}
+
+.cv-profile-info {
+  margin: 2rem 0rem;
+}
+
+.cv-profile-title {
+  color: #43b1b4;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.cv-profile-description {
+  color: #4d4d4d;
+  font-weight: 300;
+}
+
+.cv-profile-description:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.cv-acheievements {
+  margin-top: -16rem;
+}
+
+.cv-section {
+  margin-bottom: 1rem;
+}
+
+.cv-section-name {
+  text-transform: uppercase;
+  background-color: #44b1b4;
+  color: white;
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+  margin: 1rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.section-content-heading {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 3.5rem;
+  border-right: 1px solid black;
+}
+
+.section-content-span {
+  margin-left: 1rem;
+  color: #44b1b4;
+  display: inline-block;
+}
+
+.section-content-description {
+  font-weight: 300;
+  margin-left: 3.3rem;
+}
+
+.content-about {
+  font-weight: 400;
+}
+
+.section-circle {
+  background-color: #44b1b4;
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+
+.section-circle:first-child {
+  margin-left: 2rem;
+}
+
+.section-circle:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.section-circle-grey {
+  background-color: #4d4d4d;
+  opacity: 15%;
 }
