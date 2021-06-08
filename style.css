@@ -1,3 +1,4 @@
+/* Default CSS Here*/
 *,
 *::before,
 *::after {
@@ -23,43 +24,20 @@ a {
   color: inherit;
 }
 
+/* Container CSS */
 .container {
   width: 62rem;
   padding: 4rem;
-  background-color: #D7D7D7;
+  background-color: #d7d7d7;
 }
 
-.cv{
-  background-color: #FEFEFE;
+/* CV CSS Start */
+.cv {
+  background-color: #fefefe;
   box-shadow: 0 1rem 1.5rem #888888;
 }
 
-.cv-body {
-  padding: 0 3rem 1rem 3rem;
-}
-
-.cv-body {
-  display: flex;
-}
-
-.cv-footer{
-  height: 1rem;
-  width: 100%;
-  background-color: #43b1b4;
-}
-
-.cv-body-left {
-  flex-basis: 40%;
-  padding-right: 2.5rem;
-}
-
-.cv-body-right {
-  flex-basis: 60%;
-  border-left: .2rem solid #44b1b4;
-  padding-left: 1rem;
-}
-
-
+/* CV Head CSS Start */
 .cv-head {
   background-color: #44b1b4;
   padding: 4rem 3rem 1.5rem;
@@ -100,8 +78,20 @@ a {
   background-color: white;
   padding: 0.2rem;
   border-radius: 50%;
+} /* CV Head CSS End */
+
+/* CV Body CSS Start */
+.cv-body {
+  padding: 0 3rem 1rem 3rem;
+  display: flex;
+}
+/* CV Body Left CSS Start */
+.cv-body-left {
+  flex-basis: 40%;
+  padding-right: 2.5rem;
 }
 
+/* CV Profile CSS */
 .cv-profile {
   font-size: 1.3rem;
   border: 2px solid #43b1b4;
@@ -113,12 +103,10 @@ a {
   top: -18rem;
   background-color: white;
 }
-
 .cv-profile-img {
   width: 16.5rem;
   border-radius: 50%;
 }
-
 .cv-profile-info {
   margin: 2rem 0rem;
 }
@@ -132,17 +120,16 @@ a {
   color: #4d4d4d;
   font-weight: 300;
 }
-
 .cv-profile-description:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-.cv-acheievements {
-  margin-top: -16rem;
-}
-
+/* CV Acheivements Section CSS Start */
 .cv-section {
   margin-bottom: 1rem;
+}
+.cv-acheievements {
+  margin-top: -16rem;
 }
 
 .cv-section-name {
@@ -158,9 +145,9 @@ a {
   position: relative;
 }
 
-.cv-section-name-modified::before{
+.cv-section-name-modified::before {
   content: "";
-  width: .7rem;
+  width: 0.7rem;
   height: 0.2rem;
   background-color: #44b1b4;
   position: absolute;
@@ -235,8 +222,9 @@ a {
 
 .section-content-description-modified {
   margin-left: 4.3rem;
-}
+} /* CV Acheivements Section CSS End*/
 
+/* CV Skills Section CSS Start */
 .content-about {
   font-weight: 400;
 }
@@ -261,4 +249,19 @@ a {
 .section-circle-grey {
   background-color: #4d4d4d;
   opacity: 15%;
-}
+} /* CV Skills Section CSS End */
+/* CV Body Left CSS End */
+
+/* CV Body Right CSS Start */
+.cv-body-right {
+  flex-basis: 60%;
+  border-left: 0.2rem solid #44b1b4;
+  padding-left: 1rem;
+} /* CV Body Right CSS End */
+
+/* CV Footer CSS Start */
+.cv-footer {
+  height: 1rem;
+  width: 100%;
+  background-color: #43b1b4;
+} /* CV Footer CSS End */
