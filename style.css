@@ -53,7 +53,6 @@ a {
 }
 
 .cv-title-name {
-  width: 16rem;
   font-size: 31px;
   font-weight: 700;
   line-height: 1;
@@ -98,9 +97,8 @@ a {
   text-align: center;
   padding: 1rem;
   border-radius: 10rem;
-  display: inline-block;
   position: relative;
-  top: -18rem;
+  top: -15.5rem;
   background-color: white;
 }
 .cv-profile-img {
@@ -111,16 +109,16 @@ a {
   margin: 2rem 0rem;
 }
 
-.cv-profile-title {
+.cv-profile-info-title {
   color: #43b1b4;
   font-weight: 500;
   text-transform: uppercase;
 }
-.cv-profile-description {
+.cv-profile-info-description {
   color: #4d4d4d;
   font-weight: 300;
 }
-.cv-profile-description:not(:last-child) {
+.cv-profile-info-description:not(:last-child) {
   margin-bottom: 2rem;
 }
 
@@ -128,8 +126,8 @@ a {
 .cv-section {
   margin-bottom: 1rem;
 }
-.cv-acheievements {
-  margin-top: -16rem;
+.cv-section-modified {
+  margin-top: -14rem;
 }
 
 .cv-section-name {
@@ -156,12 +154,12 @@ a {
   transform: translateY(-50%);
 }
 
-.section-content {
+.cv-section-content {
   position: relative;
   margin-bottom: 1rem;
 }
 
-.section-content:not(:last-child)::after {
+.cv-section-content:not(:last-child)::after {
   content: "";
   width: 2px;
   height: 125%;
@@ -171,7 +169,7 @@ a {
   top: 0.5rem;
 }
 
-.section-content-heading {
+.cv-section-content-heading {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -181,7 +179,7 @@ a {
   margin-left: 1rem;
 }
 
-.section-content-heading::before {
+.cv-section-content-heading::before {
   content: "";
   width: 0.6rem;
   height: 0.6rem;
@@ -193,7 +191,7 @@ a {
   transform: translateY(-50%);
 }
 
-.section-content-heading::after {
+.cv-section-content-heading::after {
   content: "";
   width: 1px;
   height: 70%;
@@ -204,32 +202,31 @@ a {
   transform: translateY(-50%);
 }
 
-.section-content-heading-modified {
+.cv-section-content-heading-modified {
   width: 3.5rem;
 }
 
-.section-content-span {
+.cv-section-content-span {
   margin-left: 1rem;
   color: #44b1b4;
-  display: inline-block;
   text-transform: uppercase;
 }
 
-.section-content-description {
+.cv-section-content-description {
   font-weight: 300;
   margin-left: 7.6rem;
 }
 
-.section-content-description-modified {
+.cv-section-content-description-modified {
   margin-left: 4.3rem;
 } /* CV Acheivements Section CSS End*/
 
 /* CV Skills Section CSS Start */
-.content-about {
+.cv-section-bullet {
   font-weight: 400;
 }
 
-.section-circle {
+.cv-section-bullet-point {
   background-color: #44b1b4;
   height: 1rem;
   width: 1rem;
@@ -238,15 +235,15 @@ a {
   margin-top: 0.5rem;
 }
 
-.section-circle:first-child {
+.cv-section-bullet-point:first-child {
   margin-left: 2rem;
 }
 
-.section-circle:not(:last-child) {
+.cv-section-bullet-point:not(:last-child) {
   margin-right: 1rem;
 }
 
-.section-circle-grey {
+.cv-section-bullet-point-grey {
   background-color: #4d4d4d;
   opacity: 15%;
 } /* CV Skills Section CSS End */
